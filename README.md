@@ -1,4 +1,6 @@
 # CSS to the Rescue
+Gebruik de liveversie om de effecten het best te zien!
+https://jimmydekroon.github.io/css-to-the-rescue-2021/docs/assignments/menu.html
 
 # Context
 - Prefers-color-scheme: De app zal in dark mode of light mode te zien zijn aan de hand van de color scheme in de OS.
