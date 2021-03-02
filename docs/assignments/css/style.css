@@ -66,7 +66,7 @@ h3 {
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
-  perspective: 9px;
+  perspective: calc(var(--perspective) * 1px);
 }
 
 /* header */
@@ -221,7 +221,6 @@ section header p {
 section svg {
   position: relative;
   transform: translateZ(calc(var(--distance) * 1px)) scale(calc((var(--perspective) - var(--distance)) / var(--perspective)));
-  clip-path: circle(-22.8% at -67% -97%);
 }
 
 section svg:nth-of-type(6n+1) {
@@ -343,3 +342,9 @@ blockquote p, blockquote cite {
     transform: translateX(0em);
   }
 }
+
+/* source
+
+https://medium.com/@dailyfire/pure-css-parallax-simple-tricks-da102d0ffdb9
+
+*/
